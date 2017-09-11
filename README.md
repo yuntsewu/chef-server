@@ -26,7 +26,7 @@ This needs to be done to match the SSL certificate name with the `chef_server_ur
 Docker command:
 
 ```bash
-$ docker run --privileged -t --name chef-server -d -p 443:443 cbuisson/chef-server
+$ docker run --privileged -t --name chef-server -d -p 443:443 windsor106/chef-server
 ```
 
 Follow the installation:
@@ -71,11 +71,6 @@ verify the authenticity of these certificates after downloading.
 Adding certificate for chef-server in /home/cbuisson/.chef/trusted_certs/chef-server.crt
 ```
 
-You should now be able to use the knife command!
-```bash
-cbuisson@server:~# knife user list
-admin
-```
 **Done!**
 
 ##### Note
