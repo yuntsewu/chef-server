@@ -1,7 +1,6 @@
 # chef-server
 
-chef-server will run Chef Server 12 in an Ubuntu Trusty 14.04 LTS container.  
-Image Size: Approximately 1GB
+chef-server will run Chef Server 12 in an Ubuntu Xenial 16.04 LTS container.  
 
 This is a fork of: [c-buisson/chef-server](https://github.com/c-buisson/chef-server).
 
